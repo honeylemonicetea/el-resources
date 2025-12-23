@@ -359,7 +359,7 @@ words.map((word) => {
 });
 
 function toggleOpenCard(event) {
-    console.log("function")
+   
     let targetCard
     if(event.target.parentElement.classList.contains("card")){
         targetCard = event.target.parentElement
@@ -369,6 +369,6 @@ function toggleOpenCard(event) {
     }
     if (targetCard) {
         targetCard.classList.toggle("card_open");
-        console.log("card open")
+         
   }
 }
