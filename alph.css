@@ -1,7 +1,9 @@
 .letter-container{
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(9, 1fr);
     gap: 10px;
+    max-width: 1400px;
+    margin: 50px auto;
 }
 
 .card{
@@ -20,4 +22,36 @@ button{
 
 button:hover{
     cursor: pointer;
+}
+
+/* colors */
+.grey{
+background-color: #8d9097;
+}
+.green{
+background-color: #55b367;
+}
+
+.red{
+background-color:#dc352d ;
+
+}
+
+.white{
+background-color: #ffffff;
+
+}
+
+.yellow{
+background-color: #edd301;
+
+}
+.blue{
+background-color: #34a8db;
+
+}
+
+.teal{
+background-color: #106f98;
+
 }
