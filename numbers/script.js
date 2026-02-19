@@ -507,6 +507,7 @@ function setTask() {
   for (let i = 0; i < 4; i++) {
     let button = document.createElement("button");
     button.innerHTML = currentTasks[i].option;
+    button.style.backgroundColor = "#f1f1f1";
 
     button.addEventListener("click", () => {
       checkAnswer(button, currentTasks[i].correct);
